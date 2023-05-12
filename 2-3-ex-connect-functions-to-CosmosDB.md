@@ -34,6 +34,7 @@
     | **承認レベル** | `Anonymous`を選択。承認レベルについては、[承認キー](https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-bindings-http-webhook-trigger#authorization-keys)を参照してください。 |
     | **Select how you would like to open your project (プロジェクトを開く方法を選択してください)** | `Add to workspace` |
     
+    「Do you trust the authors of the files in this folder?」といったメッセージが表示された場合は、"Trust The ～"のチェックボックスにチェックを入れ、[Yes, I Trust the authors]ボタンをクリックします。
     Visual Studio Code は、この情報を使用して、HTTP トリガーによる Azure Functions プロジェクトを生成します。 ローカル プロジェクト ファイルは、エクスプローラーで表示できます。 作成されるファイルの詳細については、[生成されるプロジェクトファイル](https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-develop-vs-code?tabs=javascript#generated-project-files)を参照してください。
 
 ## Azure に関数アプリを作成する
